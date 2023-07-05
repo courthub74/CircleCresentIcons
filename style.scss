@@ -15,8 +15,8 @@ $mainblue: #080E2F;
                 justify-content: center;
                 align-items: center;
                 border: 2px solid white;
-                width: 30vw;
-                height: 30vw;
+                width: 33vw;
+                height: 33vw;
                 border-radius: 50%;
                 .icons {
                     display: flex;
@@ -28,6 +28,7 @@ $mainblue: #080E2F;
                         display: flex;
                         align-items: center;
                         font-family: 'Courier New', Courier, monospace;
+                        margin: -10vh 0 0 3vw;
                         // font-size: 1vw;
                         #html {
                             width: 3vw;
@@ -40,7 +41,7 @@ $mainblue: #080E2F;
                         gap: .5vw;
                         font-family: 'Courier New', Courier, monospace;
                         font-size: 1vw;
-                        margin: 0 0 0 .3vw;
+                        margin: 2vh 0 0 0vw;
                         #figma {
                             width: 2.3vw;
                             height: 2.3vw;
@@ -52,6 +53,7 @@ $mainblue: #080E2F;
                         // gap: 1vw;
                         font-family: 'Courier New', Courier, monospace;
                         font-size: 1vw;
+                        margin: 2vh 0 0 -2.5vw;
                         #reactjs {
                             width: 3vw;
                             height: 3vw;
@@ -113,8 +115,8 @@ $mainblue: #080E2F;
                 gap: 3vh;
                 align-items: center;
                 border: 2px solid white;
-                width: 35vw;
-                height: 35vw;
+                width: 33vw;
+                height: 33vw;
                 border-radius: 50%;
                 .littlecircletwo {
                     font-family: 'Courier New', Courier, monospace;
