@@ -22,12 +22,12 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
+  font-size: 1vw;
 }
 * body .container .bigcircle .icons .iconone {
   display: flex;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 1vw;
 }
 * body .container .bigcircle .icons .iconone #html {
   width: 3vw;
@@ -103,10 +103,11 @@
 * body .container .bigcircletwo {
   display: flex;
   justify-content: center;
+  gap: 3vh;
   align-items: center;
   border: 2px solid white;
-  width: 30vw;
-  height: 30vw;
+  width: 35vw;
+  height: 35vw;
   border-radius: 50%;
 }
 * body .container .bigcircletwo .littlecircletwo {
@@ -122,6 +123,7 @@
   align-items: center;
   text-align: center;
   position: static;
+  margin: 0 0 0 -5vw;
 }
 * body .container .bigcircletwo .littlecircletwo .technologies {
   width: 65%;
@@ -131,54 +133,78 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
+  margin: 6vh 0 0 0;
 }
 * body .container .bigcircletwo .iconstwo .iconseven {
   display: flex;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1vw;
+  margin: -4vh 0 0 -5vw;
+  background-color: yellowgreen;
+  width: 0vw;
 }
 * body .container .bigcircletwo .iconstwo .iconseven #javascript {
   width: 3vw;
   height: 3vw;
 }
-* body .container .bigcircletwo .iconeight {
+* body .container .bigcircletwo .iconstwo .iconeight {
   display: flex;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1vw;
+  margin: 1vh 0 0 -1vw;
+  width: 0vw;
 }
-* body .container .bigcircletwo .iconeight #python {
-  width: 3vw;
-  height: 3vw;
+* body .container .bigcircletwo .iconstwo .iconeight #python {
+  width: 2.8vw;
+  height: 2.8vw;
 }
-* body .container .bigcircletwo .iconnine {
+* body .container .bigcircletwo .iconstwo .iconnine {
   display: flex;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1vw;
+  margin: 3vh 0 0 1vw;
+  width: 0vw;
 }
-* body .container .bigcircletwo .iconnine #nodejs {
+* body .container .bigcircletwo .iconstwo .iconnine #nodejs {
   width: 2.5vw;
   height: 2.5vw;
 }
-* body .container .bigcircletwo .iconten {
+* body .container .bigcircletwo .iconstwo .iconten {
   display: flex;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1vw;
+  margin: 4vh 0 0 1vw;
+  width: 0vw;
 }
-* body .container .bigcircletwo .iconten #mongo {
-  width: 1.1vw;
+* body .container .bigcircletwo .iconstwo .iconten #mongo {
+  width: 2.5vw;
   height: 2.5vw;
 }
-* body .container .bigcircletwo .iconeleven {
+* body .container .bigcircletwo .iconstwo .iconeleven {
   display: flex;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1vw;
+  margin: 4vh 0 0 -1vw;
+  width: 0vw;
 }
-* body .container .bigcircletwo .iconeleven #firebase {
+* body .container .bigcircletwo .iconstwo .iconeleven #firebase {
   width: 3vw;
   height: 3vw;
+}
+* body .container .bigcircletwo .iconstwo .icontwelve {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+  margin: 2vh 0 0 -4.5vw;
+  width: 0vw;
+}
+* body .container .bigcircletwo .iconstwo .icontwelve #heroku {
+  width: 2.3vw;
+  height: 2.3vw;
 }/*# sourceMappingURL=style.css.map */

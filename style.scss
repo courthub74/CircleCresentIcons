@@ -22,12 +22,13 @@ $mainblue: #080E2F;
                     display: flex;
                     flex-direction: column;
                     justify-content: left;
+                    font-size: 1vw;
                     // background-color: yellow;
                     .iconone {
                         display: flex;
                         align-items: center;
                         font-family: 'Courier New', Courier, monospace;
-                        font-size: 1vw;
+                        // font-size: 1vw;
                         #html {
                             width: 3vw;
                             height: 3vw;
@@ -109,10 +110,11 @@ $mainblue: #080E2F;
             .bigcircletwo {
                 display: flex;
                 justify-content: center;
+                gap: 3vh;
                 align-items: center;
                 border: 2px solid white;
-                width: 30vw;
-                height: 30vw;
+                width: 35vw;
+                height: 35vw;
                 border-radius: 50%;
                 .littlecircletwo {
                     font-family: 'Courier New', Courier, monospace;
@@ -127,6 +129,7 @@ $mainblue: #080E2F;
                     align-items: center;
                     text-align: center;
                     position: static;
+                    margin: 0 0 0 -5vw;
                     .technologies {
                         // background-color: yellow;
                         width: 65%;
@@ -137,56 +140,84 @@ $mainblue: #080E2F;
                     display: flex;
                     flex-direction: column;
                     justify-content: left;
+                    margin: 6vh 0 0 0;
+                    // width: 0;
+                    // height: 100%;
+                    // background-color: yellow;
                     .iconseven {
                         display: flex;
                         align-items: center;
                         font-family: 'Courier New', Courier, monospace;
                         font-size: 1vw;
+                        margin: -4vh 0 0 -5vw;
+                        background-color: yellowgreen;
+                        width: 0vw;
                         #javascript {
                             width: 3vw;
                             height: 3vw;
                         }
                     }
-                }
-                
-                .iconeight {
-                    display: flex;
-                    align-items: center;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-size: 1vw;
-                    #python {
-                        width: 3vw;
-                        height: 3vw;
+                    .iconeight {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 1vw;
+                        margin: 1vh 0 0 -1vw;
+                        width: 0vw;
+                        #python {
+                            width: 2.8vw;
+                            height: 2.8vw;
+                        }
                     }
-                }
-                .iconnine {
-                    display: flex;
-                    align-items: center;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-size: 1vw;
-                    #nodejs {
-                        width: 2.5vw;
-                        height: 2.5vw;
+                    .iconnine {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 1vw;
+                        margin: 3vh 0 0 1vw;
+                        width: 0vw;
+                        #nodejs {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
                     }
-                }
-                .iconten {
-                    display: flex;
-                    align-items: center;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-size: 1vw;
-                    #mongo {
-                        width: 1.1vw;
-                        height: 2.5vw;
+                    .iconten {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 1vw;
+                        margin: 4vh 0 0 1vw;
+                        width: 0vw;
+                        #mongo {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
                     }
-                }
-                .iconeleven {
-                    display: flex;
-                    align-items: center;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-size: 1vw;
-                    #firebase {
-                        width: 3vw;
-                        height: 3vw;
+                    .iconeleven {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 1vw;
+                        margin: 4vh 0 0 -1vw;
+                        // background-color: rebeccapurple;
+                        width: 0vw;
+                        #firebase {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                    }
+                    .icontwelve {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 1vw;
+                        margin: 2vh 0 0 -4.5vw;
+                        width: 0vw;
+                        // background-color: rebeccapurple;
+                        #heroku {
+                            width: 2.3vw;
+                            height: 2.3vw;
+                        }
                     }
                 }
             }
