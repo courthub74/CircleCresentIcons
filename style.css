@@ -1,0 +1,184 @@
+* {
+  background-color: #080E2F;
+  color: white;
+}
+* body .container {
+  height: 100vh;
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+* body .container .bigcircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+* body .container .bigcircle .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+* body .container .bigcircle .icons .iconone {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircle .icons .iconone #html {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircle .icons .icontwo {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+  margin: 0 0 0 0.3vw;
+}
+* body .container .bigcircle .icons .icontwo #figma {
+  width: 2.3vw;
+  height: 2.3vw;
+}
+* body .container .bigcircle .icons .iconthree {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircle .icons .iconthree #reactjs {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircle .icons .iconfour {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+  margin: 0 0 0 0.3vw;
+}
+* body .container .bigcircle .icons .iconfour #sass {
+  width: 2.3vw;
+  height: 2.3vw;
+}
+* body .container .bigcircle .icons .iconfive {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircle .icons .iconfive #css {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircle .icons .iconsix {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircle .icons .iconsix #react-native {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircle .littlecircle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+  border: 3px solid white;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: static;
+}
+* body .container .bigcircletwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+* body .container .bigcircletwo .littlecircletwo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+  border: 3px solid white;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: static;
+}
+* body .container .bigcircletwo .littlecircletwo .technologies {
+  width: 65%;
+  line-height: 1;
+}
+* body .container .bigcircletwo .iconstwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+* body .container .bigcircletwo .iconstwo .iconseven {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircletwo .iconstwo .iconseven #javascript {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircletwo .iconeight {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircletwo .iconeight #python {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircletwo .iconnine {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircletwo .iconnine #nodejs {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .container .bigcircletwo .iconten {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircletwo .iconten #mongo {
+  width: 1.1vw;
+  height: 2.5vw;
+}
+* body .container .bigcircletwo .iconeleven {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+}
+* body .container .bigcircletwo .iconeleven #firebase {
+  width: 3vw;
+  height: 3vw;
+}/*# sourceMappingURL=style.css.map */
