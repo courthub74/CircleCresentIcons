@@ -1,0 +1,285 @@
+$mainblue: #080E2F;
+$skillsteal: #146166;
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    body {
+        // background-color: $skillsteal;
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3vw;
+            background-color: $skillsteal;
+            .bigcircle {
+                // border: 2px solid white;
+                width: 33vw;
+                height: 33vw;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $mainblue;
+                box-shadow: 2px 2px 3px $boxshadowcircles;
+                .icons {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 -12vh 0;
+                    // background-color: aquamarine;
+                    .html {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: -15vh -3vw 0 0;
+                        #html {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        p {
+                            color: white;
+                            font-size: 1vw;
+                            font-family: 'Julius Sans One', sans-serif;
+                        }
+                    }
+                    .css {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 3vh 0 0 -3vw;
+                        #css {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        p {
+                            color: white;
+                            font-size: 1vw;
+                            font-family: 'Julius Sans One', sans-serif;
+                        }
+                    }
+                    .sass {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        margin: 3vh 0 0 -5vw;
+                        #sass {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
+                        p {
+                            color: white;
+                            font-size: 1vw;
+                            font-family: 'Julius Sans One', sans-serif;
+                        }
+                    }
+                    .figma {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        margin: 4.5vh 0 0 -5vw;
+                        #figma {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
+                        p {
+                            color: white;
+                            font-size: 1vw;
+                            font-family: 'Julius Sans One', sans-serif;
+                        }
+                    }
+                    .reactjs {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        margin: 4vh 0 0 -3vw;
+                        #reactjs {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
+                        p {
+                            color: white;
+                            font-size: 1vw;
+                            font-family: 'Julius Sans One', sans-serif;
+                        }
+                    }
+                    .react-native {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 2vh -5vw 0 0;
+                        #react-native {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        p {
+                            color: white;
+                            font-size: 1vw;
+                            font-family: 'Julius Sans One', sans-serif;
+                        }
+                    }
+                }
+                .lilcircle {
+                    border: 3px solid white;
+                    border-radius: 50%;
+                    width: 15vw;
+                    height: 15vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $mainblue;
+                    font-family: 'Julius Sans One', sans-serif;
+                    text-align: center;
+                    padding: 1vh;
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        // background-color: blueviolet;
+                    }
+                }
+            }
+            // BIG CIRCLE TWO
+            .bigcircletwo {
+                width: 33vw;
+                height: 33vw;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $mainblue;
+                box-shadow: 2px 2px 3px $boxshadowcircles;
+                .lilcircletwo {
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    width: 15vw;
+                    height: 15vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $mainblue;
+                    font-family: 'Julius Sans One', sans-serif;
+                    text-align: center;
+                    padding: 1vh;
+                    .technologies {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                    }
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        // background-color: blueviolet;
+                    }
+                }
+            }
+            .iconstwo {
+                margin: 0 0 -5vh 0;
+                .javascript {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: -15vh -6vw 0 0;
+                    #javascript {
+                        width: 3vw;
+                        height: 3vw;
+                    }
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        // font-family: 'Julius Sans One', sans-serif;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+                .python {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    #python {
+                        width: 2.5vw;
+                        height: 2.5vw;
+                    }
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        font-family: 'Julius Sans One', sans-serif;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+                .nodejs {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 1vh 0 0 -3vw;
+                    #nodejs {
+                        width: 2.3vw;
+                        height: 2.3vw;
+                    }
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        font-family: 'Julius Sans One', sans-serif;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+                .mongo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 2vh 0 0 -3vw;
+                    #mongo {
+                        width: 2.3vw;
+                        height: 2.3vw;
+                    }
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        font-family: 'Julius Sans One', sans-serif;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+                .firebase {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 1vh 0 0 -4.5vw;
+                    #firebase {
+                        width: 3vw;
+                        height: 3vw;
+                    }
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        font-family: 'Julius Sans One', sans-serif;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+                .heroku {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 2vh 0 0 -3vw;
+                    #heroku {
+                        width: 2.3vw;
+                        height: 2.3vw;
+                    }
+                    p {
+                        color: white;
+                        font-size: 1vw;
+                        font-family: 'Julius Sans One', sans-serif;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+            }
+        }
+    }
+}

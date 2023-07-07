@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+}
+* body .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  background-color: #146166;
+}
+* body .container .bigcircle {
+  width: 33vw;
+  height: 33vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080E2F;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+}
+* body .container .bigcircle .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 -12vh 0;
+}
+* body .container .bigcircle .icons .html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -15vh -3vw 0 0;
+}
+* body .container .bigcircle .icons .html #html {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircle .icons .html p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+}
+* body .container .bigcircle .icons .css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh 0 0 -3vw;
+}
+* body .container .bigcircle .icons .css #css {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircle .icons .css p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+}
+* body .container .bigcircle .icons .sass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  margin: 3vh 0 0 -5vw;
+}
+* body .container .bigcircle .icons .sass #sass {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .container .bigcircle .icons .sass p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+}
+* body .container .bigcircle .icons .figma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  margin: 4.5vh 0 0 -5vw;
+}
+* body .container .bigcircle .icons .figma #figma {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .container .bigcircle .icons .figma p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+}
+* body .container .bigcircle .icons .reactjs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  margin: 4vh 0 0 -3vw;
+}
+* body .container .bigcircle .icons .reactjs #reactjs {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .container .bigcircle .icons .reactjs p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+}
+* body .container .bigcircle .icons .react-native {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh -5vw 0 0;
+}
+* body .container .bigcircle .icons .react-native #react-native {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .bigcircle .icons .react-native p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+}
+* body .container .bigcircle .lilcircle {
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 15vw;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080E2F;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  padding: 1vh;
+}
+* body .container .bigcircle .lilcircle p {
+  color: white;
+  font-size: 1vw;
+}
+* body .container .bigcircletwo {
+  width: 33vw;
+  height: 33vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080E2F;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+}
+* body .container .bigcircletwo .lilcircletwo {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 15vw;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080E2F;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  padding: 1vh;
+}
+* body .container .bigcircletwo .lilcircletwo .technologies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}
+* body .container .bigcircletwo .lilcircletwo p {
+  color: white;
+  font-size: 1vw;
+}
+* body .container .iconstwo {
+  margin: 0 0 -5vh 0;
+}
+* body .container .iconstwo .javascript {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -15vh -6vw 0 0;
+}
+* body .container .iconstwo .javascript #javascript {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .iconstwo .javascript p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Courier New", Courier, monospace;
+}
+* body .container .iconstwo .python {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body .container .iconstwo .python #python {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .container .iconstwo .python p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+}
+* body .container .iconstwo .nodejs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh 0 0 -3vw;
+}
+* body .container .iconstwo .nodejs #nodejs {
+  width: 2.3vw;
+  height: 2.3vw;
+}
+* body .container .iconstwo .nodejs p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+}
+* body .container .iconstwo .mongo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0 0 -3vw;
+}
+* body .container .iconstwo .mongo #mongo {
+  width: 2.3vw;
+  height: 2.3vw;
+}
+* body .container .iconstwo .mongo p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+}
+* body .container .iconstwo .firebase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh 0 0 -4.5vw;
+}
+* body .container .iconstwo .firebase #firebase {
+  width: 3vw;
+  height: 3vw;
+}
+* body .container .iconstwo .firebase p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+}
+* body .container .iconstwo .heroku {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0 0 -3vw;
+}
+* body .container .iconstwo .heroku #heroku {
+  width: 2.3vw;
+  height: 2.3vw;
+}
+* body .container .iconstwo .heroku p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=home.css.map */
